@@ -2,5 +2,6 @@
   name: Flutter Code Analysis
   entry: scripts/flutter-analyze
   language: script
-  files: \.dart$
+  always_run: true
+  types: [ directory ]
 
